@@ -10,7 +10,7 @@ const CustomBottomTab = ({ state, descriptors, navigation }) => {
     if (routeName === 'home') iconName = 'home-outline';
     else if (routeName === 'analytics') iconName = 'chart-bar';
     else if (routeName === 'transfer') iconName = 'swap-horizontal';
-    else if (routeName === 'tayers') iconName = 'layers-outline';
+    else if (routeName === 'layers') iconName = 'layers-outline';
     else iconName = 'account-outline';
     return <Icon name={iconName} size={28} color={colors.black} />;
   };
