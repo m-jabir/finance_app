@@ -12,7 +12,9 @@ export default function App() {
                 barStyle="light-content"
                 backgroundColor={colors.greenPrimary}
               />
-     
+      <NavigationContainer>
+        <BottomTabNavigator />
+      </NavigationContainer>
     </SafeAreaView>
   );
 }
