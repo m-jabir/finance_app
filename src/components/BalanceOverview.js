@@ -46,10 +46,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'space-between',
   },
-  col: {
-    // flex: 1,
-    // alignItems: 'center',
-  },
+ 
   label: {
     fontSize: 14,
     color: colors.black,

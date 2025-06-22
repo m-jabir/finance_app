@@ -4,7 +4,7 @@ import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 import colors from '../theme/colors';
 
 const CustomBottomTab = ({ state, descriptors, navigation }) => {
-  const getTabBarIcon = (name, focused) => {
+  const getTabBarIcon = (name) => {
     let routeName = name.toLowerCase();
     let iconName = 'circle';
     if (routeName === 'home') iconName = 'home-outline';
