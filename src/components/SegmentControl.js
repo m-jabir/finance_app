@@ -52,6 +52,7 @@ const styles = StyleSheet.create({
   segmentText: {
     fontSize: 14,
     fontWeight: '500',
+    
   },
   activeText: {
     color: colors.white,

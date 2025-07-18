@@ -12,14 +12,31 @@ import {
 } from 'react-native';
 // import EyeIcon from '../../../assets/'; // adjust the path to your structure
 import { Image } from 'react-native'; // Make sure you import Image
+import { useNavigation } from '@react-navigation/native';
 
 // import Icon from 'react-native-vector-icons/Ionicons';
-
+// const navigation = useNavigation();
 const Login = () => {
+  const navigation = useNavigation();
+
+
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [secureText, setSecureText] = useState(true);
+  
+
   return (
+
+
+ 
+ 
+ 
+ 
+ 
+    
+
+
+
     <SafeAreaView style={styles.safeArea}>
       <StatusBar
         backgroundColor="#00D084"
@@ -60,9 +77,21 @@ const Login = () => {
 
         </View>
 
-        <TouchableOpacity style={styles.loginBtn}>
+        {/* <TouchableOpacity style={styles.loginBtn}>
           <Text style={styles.loginText}>Log In</Text>
-        </TouchableOpacity>
+        </TouchableOpacity> */}
+
+
+
+<TouchableOpacity
+  style={styles.loginBtn}
+   onPress={() => navigation.navigate("Home")}
+>
+  <Text style={styles.loginText}>Log In</Text>
+</TouchableOpacity>
+
+
+
 
         <TouchableOpacity>
           <Text style={styles.forgotText}>Forgot Password?</Text>
@@ -222,3 +251,11 @@ const styles = StyleSheet.create({
   },
 });
 export default Login;
+
+
+
+
+
+
+
+

@@ -8,6 +8,7 @@ import TransactionList from '../components/TransactionList';
 import colors from '../theme/colors';
 import { transactions } from '../utils/contants';
 import WrapperContainer from '../components/WrapperContainer';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
 const HomeScreen =()=> {
   const [selectedSegment, setSelectedSegment] = useState('Monthly');

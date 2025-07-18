@@ -33,7 +33,10 @@ const styles = StyleSheet.create({
   title: {
     color: colors.black,
     fontSize: 24,
-    fontFamily: FONTS.bold
+    alignItems: 'center',
+  marginLeft:10,
+   fontFamily: FONTS.bold
+   
   },
   subtitle: {
     color: colors.black,
